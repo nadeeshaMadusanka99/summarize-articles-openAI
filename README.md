@@ -16,11 +16,11 @@ To run this project on your local machine, follow these steps:
 
 2. Create an account on RapidAPI (if you don't have one already) and obtain an API Key for the Article Extractor and Summarizer service.
 
-3. Create a `.env.local` file in the root directory of the project.
+3. Create a `.env` file in the root directory of the project.
 
-4. In the `.env.local` file, add the following line, replacing `'VITE_RAPID_API_ARTICLE_KEY' = Your API key` with your actual RapidAPI API Key:
+4. In the `.env` file, add the following line, replacing `'VITE_RAPID_API_ARTICLE_KEY'` = Your API key with your actual RapidAPI API Key:
 
-5. Save the `.env.local` file.
+5. Save the `.env` file.
 
 6. Open your terminal and navigate to the project's directory.
 
