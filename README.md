@@ -26,7 +26,6 @@ To run this project on your local machine, follow these steps:
 
 7. Run the following commands to install project dependencies and start the development server:
 
-```bash
 npm install
 npm start
 
