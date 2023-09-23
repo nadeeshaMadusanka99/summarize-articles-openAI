@@ -62,11 +62,15 @@
   top: 80px;
   opacity: 0.15;
 }
+.head-logo {
+    padding-top: 2%; 
+  }
 
 @media screen and (max-width: 640px) {
-  .main {
-    padding: 0;
+  .head-logo {
+    padding-top: 1.7rem; 
   }
+  
 }
 
 /* Tailwind Styles */

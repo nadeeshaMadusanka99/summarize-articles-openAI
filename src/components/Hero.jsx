@@ -3,8 +3,8 @@ import logo from "../assets/logo-created.svg";
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
-      <nav className="w-full flex justify-between items-center mb-10 pt-3">
-        <img src={logo} alt="sumz_logo" className=" object-contain" />
+      <nav className="w-full flex justify-between items-center  pt-3">
+        <img src={logo} alt="sumz_logo" className="object-contain head-logo" />
         <button
           type="button"
           onClick={() => window.open("https://github.com/nadeeshaMadusanka99")}
