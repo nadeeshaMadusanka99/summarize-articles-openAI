@@ -1,10 +1,10 @@
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo-created.svg";
 
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="w-full flex justify-between items-center mb-10 pt-3">
-        <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
+        <img src={logo} alt="sumz_logo" className=" object-contain" />
         <button
           type="button"
           onClick={() => window.open("https://github.com/nadeeshaMadusanka99")}
@@ -13,7 +13,8 @@ const Hero = () => {
           GitHub
         </button>
       </nav>
-      <h1 className="head_text">
+
+      <h1 className="head_text ">
         Summarize Articles with <br className="max-md:hidden" />
         <span className="blue_gradient">OpenAI GPT</span>
       </h1>
